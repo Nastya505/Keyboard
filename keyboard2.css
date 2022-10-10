@@ -1,0 +1,54 @@
+#keyboard {
+    border: 2px solid black;
+    display: block;
+    padding: 5px;
+    width: 835px;
+    margin: 40px;
+}
+
+#keyboard::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+h1 {
+    text-align: center;
+}
+
+#input {
+    text-align: center;
+    width: 500px;
+    height: 10px;
+    margin-left: 215px;
+    font-size: 20px;
+}
+
+.key {
+    border: 1px solid #333;
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    padding: 3px;
+    float: left;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.key:last-child {
+    width: 800px;
+}
+
+.clearfix {
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.space {
+    width: 800px;
+}
+
+.active {
+    background: orange;
+}
